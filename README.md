@@ -89,9 +89,9 @@ Polymorphism	Custom toString() for display
 
 Inheritance	Serializable interface implemented
 
-## 📝 License
+## 📜 License
 
-MIT License - Free for academic/portfolio use.
+This project is licensed under the **[MIT License](LICENSE)** - See the [LICENSE](LICENSE) file for full details..
 
 -🔗 GitHub Repo:https://github.com/Sathwik-Samudrala/Library-Management-System.git
 
