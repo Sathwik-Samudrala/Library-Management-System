@@ -32,17 +32,14 @@ Uses Java Serialization for secure storage
 
 ## 🖥️ Demonstration 
 
-Add Book	Borrow Book	View All
-https://Library-Management-SS-1.png	https://Library-Management-SS-3.png	https://Library-Management-SS-5.png
-System Start: Auto-loads previous data or initializes fresh
-
-Transaction Flow:
-
-Borrow: Checks availability + user limits
-
-Return: Validates book was borrowed by user
-
-Error Handling: Rejects invalid IDs/inputs with helpful messages
+| Screenshot | Description |
+|------------|-------------|
+| ![Initial Setup](Library-Management-SS-1.png) | System initialization and adding first books with auto-generated IDs |
+| ![User Registration](Library-Management-SS-2.png) | Registering new users with unique IDs |
+| ![Book Borrowing](Library-Management-SS-3.png) | Successful borrow transaction and error handling for invalid IDs |
+| ![Book Return](Library-Management-SS-4.png) | Returning books with validation (success & failure cases) |
+| ![View Records](Library-Management-SS-5.png) | Formatted display of all books and users with status |
+| ![Borrow Limit](Library-Management-SS-6.png) | Enforcement of 5-book borrowing limit per user |
 
 ## 🚀 How to Run
 
@@ -56,15 +53,6 @@ text
 > BOOK TITLE: Atomic Habits  
 > AUTHOR: James Clear  
 ✅ BOOK ADDED! ID: 8  
-## 🏗️ Project Structure
-markdown
-src/
-├── Book.java          # Book entity (immutable ID/title/author)
-├── User.java          # User profile + borrowed books
-├── Library.java       # Core logic (transactions/search)
-├── FileHandler.java   # Serialization manager
-├── InputUtil.java     # Robust input validation
-└── Main.java          # Menu driver
 
 ## 📜 OOP Implementation
 Concept	Example
@@ -75,5 +63,5 @@ Inheritance	Serializable interface implemented
 ## 📝 License
 MIT License - Free for academic/portfolio use.
 
-🔗 GitHub Repo: [Your Link Here]
-📧 Contact: sathwik.samudrala915@gmail.com
+-🔗 GitHub Repo:https://github.com/Sathwik-Samudrala/Library-Management-System.git
+-📧 Contact: sathwik.samudrala915@gmail.com
